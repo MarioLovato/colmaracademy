@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+/* Header Section */
+.header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  display: flex;
+  width: 100%;
+  height: 64px;
+  position: fixed;
+  align-items: center;
+  align-content: center;
+  z-index: 1;
+  background-color: white;
+  padding-left: 24px;
+
+}
+
+.navbar-header {
+  background-color: white;
+  color: grey;
+  display: flex;
+  padding-left: 540px;
+  margin-right: 16px;
+}
+.academy {
+  color: grey;
+}
+
+li {
+  display: inline-flex;
+   margin-right: 24px;
+}
+
+h1 {
+font-size: 25px;
+padding-left: 5px;
+}
+
+.ColmarAcademy{
+  display: inline-flex;
+}
+
+/* Main Content Container */
+
+.button {
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+  line-height: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+#features-section {
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  align-items: center;
+  align-content: center;
+}
+
+.feature h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 400;
+  color: #4a4a4a;
+}
