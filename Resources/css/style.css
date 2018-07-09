@@ -24,7 +24,7 @@ body {
   background-color: white;
   color: grey;
   display: flex;
-  padding-left: 540px;
+  padding-left: 300px;
   margin-right: 16px;
 }
 .academy {
@@ -47,6 +47,8 @@ padding-left: 5px;
 
 /* Main Content Container */
 
+/* First Container */
+
 .button {
   border-radius: 4px;
   background-color: #4a4a4a;
@@ -60,13 +62,12 @@ padding-left: 5px;
   width: 100%;
 }
 
-#features-section {
+#features-section1 {
   background-color: #f3f3f3;
   padding-bottom: 32px;
   padding-top: 32px;
   padding-left: 24px;
   width: 100%;
-
 }
 
 .feature h2 {
@@ -83,20 +84,83 @@ padding-left: 5px;
 }
 
 
-#banner {
-padding-top: 45px;
+#banner1 {
+padding-top: 55px;
 width: 90%;
+height: auto;
 }
 
-.text{
+#text1{
   width: 40%;
   padding-right: 200px;
 }
+
 .feature {
   display: inline-flex;
   align-items: center;
   align-content: center;
+}
 
 
+/* Second Container */
 
+#features-section2 {
+  background-color: white;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+
+#banner2 {
+  width: 87%;
+  }
+
+.boxsx {
+  display: grid;
+  width: 60%;
+}
+
+.boxdx {
+display: inline-grid;
+width: 40%;
+margin-top: 20px;
+
+}
+
+.side-img {
+display: inline-flex;
+padding-top: 16px;
+align-items: center;
+}
+
+#background {
+background-color: lightgrey;
+}
+
+.side-text {
+width: 65%;
+padding-left: 40px;
+padding-bottom: 15px;
+line-height: 16px;
+align-items: center;
+align-content: center;
+}
+
+p {
+  color: grey;
+}
+
+#img2 {
+  width: 35%;
+}
+
+#color {
+  background-color: grey;
+}
+
+#text21 {
+  padding-right: 75px;
 }
