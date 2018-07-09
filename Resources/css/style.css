@@ -60,8 +60,7 @@ padding-left: 5px;
 }
 
 #features-section {
-  display: inline-flex;
-  justify-content: space-between;
+
   background-color: #f3f3f3;
   padding-bottom: 32px;
   padding-left: 24px;
@@ -80,4 +79,14 @@ padding-left: 5px;
   line-height: 1;
   font-weight: 400;
   color: #4a4a4a;
+}
+.banner {
+padding-top: 32px;
+}
+.feature {
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 32px;
+  align-items: center;
+  align-content: center;
 }
